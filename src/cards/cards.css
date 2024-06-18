@@ -1,0 +1,38 @@
+.Card {
+    display: flex;
+    justify-content: center;
+    margin-left: 16.5%;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 15.3rem;
+    text-align: left; 
+  }
+  
+  .container h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #89CFF0;
+  }
+  
+  .container p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
